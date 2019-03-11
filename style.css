@@ -26,10 +26,12 @@
     display: block;
     clear: both;
 }
-.mesaj-container{
-background-color: aqua;
+
+.mesaj-container {
+  
 }
-.mesaj-container::after{
+
+.mesaj-container::after {
     content: "";
     display: block;
     clear: both;
@@ -53,12 +55,25 @@ background-color: aqua;
     float: right;
 }
 
+.gelenMsj::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .gidenMsj {
     border: 1px solid #000;
     width: auto;
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
+    float: left;
+}
+
+.gidenMsj::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 #gonderilen-info {
@@ -66,5 +81,7 @@ background-color: aqua;
 }
 
 .msg-tarih {
-    float: right;
+    float: left;
+    line-height: 12px;
+    font-size: 12px;
 }

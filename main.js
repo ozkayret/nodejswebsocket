@@ -46,7 +46,7 @@ window.addEventListener("load", () => {
 
             $Kspan.innerHTML = veri.kimden + " : ";
             $Mspan.innerHTML = veri.msj;
-            $tarih.innerHTML = veri.tarih;
+            $tarih.innerHTML ="<br>"+ veri.tarih;
             $mesajlar.scrollTop = $mesajlar.scrollHeight;
         }
         //ws.close();
@@ -99,7 +99,7 @@ window.addEventListener("load", () => {
         $Kspan.innerHTML = "Ben : ";
         $Mspan.innerHTML = $msg;
         var now = new Date();
-        $tarih.innerHTML = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
+        $tarih.innerHTML = "<br>"+now.getHours() + ":" + now.getMinutes() + ":";// + now.getSeconds();
         $mesajlar.scrollTop = $mesajlar.scrollHeight;
     });
 
