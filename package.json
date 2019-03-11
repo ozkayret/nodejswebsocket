@@ -1,0 +1,26 @@
+{
+  "name": "nodejswebsocket",
+  "version": "1.0.0",
+  "description": "nodejs web socket denemesi",
+  "main": "app.ja",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozkayret/nodejswebsocket.git"
+  },
+  "author": "ozkan kayret",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozkayret/nodejswebsocket/issues"
+  },
+  "homepage": "https://github.com/ozkayret/nodejswebsocket#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "ws": "^6.2.0"
+  }
+}

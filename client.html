@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" name="" id="kisi" placeholder="kullanici adi">
+    <button id="baglan">Bağlan</button>
+    <button id="kapat" disabled=true>Kapat</button>
+    <span id="info"></span>
+    <br>
+    <div id="gonderilen-info">
+        <span>Gönderilen Kişi : </span>
+        <select id="kime" disabled=true>
+            <option value="---">---</option>
+        </select>
+    </div>
+
+    <script src="main.js"></script>
+    <div id="main-container">
+        <div id="mesajlar">
+        </div>
+    </div>
+
+    <input type="text" name="" id="msg" disabled=true>
+    <button id="gonder" disabled=true>Gönder</button>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+#main-container {
+    box-sizing: border-box;
+    border: 1px solid #000;
+    margin: 20px;
+    width: 54rs0px;
+}
+
+#main-container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#mesajlar {
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    overflow-y: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+}
+
+#mesajlar::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.mesaj-container{
+background-color: aqua;
+}
+.mesaj-container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#msg {
+    margin-left: 20px;
+}
+
+#kisi {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.gelenMsj {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #000;
+    background: #c9d2cf;
+    border-radius: 5px;
+    float: right;
+}
+
+.gidenMsj {
+    border: 1px solid #000;
+    width: auto;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#gonderilen-info {
+    margin: 20px;
+}
+
+.msg-tarih {
+    float: right;
+}
