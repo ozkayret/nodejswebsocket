@@ -67,6 +67,7 @@ window.addEventListener("load", () => {
     var $mesajlar = document.getElementById("mesajlar");
 
     $gonder.addEventListener("click", () => {
+        //console.log("%cRENGGARENK",'font-size:36px;color:red');
         var $msg = $textbox.value;
         var now = new Date();
         var dt = {
