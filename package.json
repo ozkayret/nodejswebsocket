@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/ozkayret/nodejswebsocket#readme",
   "devDependencies": {
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.19.1"
   },
   "dependencies": {
     "ws": "^6.2.0"
